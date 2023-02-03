@@ -1,4 +1,4 @@
-FROM riscv64/ubuntu:18.04
+FROM riscv64/alpine:3.14
 
 COPY ./iiot_gw /usr/local/bin/iiot_gw
 COPY ./iiot_gw.json /usr/local/bin/iiot_gw.json
