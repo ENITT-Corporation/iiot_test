@@ -1,4 +1,4 @@
-FROM riscv64/ubuntu:22.04
+FROM riscv64/
 
 COPY ./iiot_gw /usr/local/bin/iiot_gw
 COPY ./iiot_gw.json /usr/local/bin/iiot_gw.json
