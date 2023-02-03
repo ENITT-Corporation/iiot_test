@@ -1,4 +1,4 @@
-FROM riscv64/
+FROM riscv64/alpine:edge
 
 COPY ./iiot_gw /usr/local/bin/iiot_gw
 COPY ./iiot_gw.json /usr/local/bin/iiot_gw.json
